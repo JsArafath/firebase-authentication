@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
 
+  background-color: #cbdcff;
+  height: 100vh;
 }
 
 .App-logo {
@@ -15,10 +16,31 @@
   font-size:large;
   border: 2px solid rgb(78, 78, 78);
   border-radius: 10px;
-  width: 150px;
+  width: 180px;
   height: 50px;
-margin-top: 20px;
+  margin-top: 60px;
+  margin-left: 5px;
+}
 
+.custom-1{
+  background: rgb(8, 172, 236);
+  color: white;
+  font-weight: 600;
+  font-size:150%;
+  height: 90%;
+  padding: 2px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.custom-2{
+  size: 80%;
+}
+
+.photo-1{
+  width: 250px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
