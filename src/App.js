@@ -1,13 +1,7 @@
 import './App.css';
 import ReactBootstrap from './Component/ReactBootstrap';
 
-
-
 function App() {
-
-
-
-  
 
     return (
       
@@ -15,9 +9,6 @@ function App() {
         <div className='w-50 center mx-auto'>
         <ReactBootstrap></ReactBootstrap>
         </div>
-
-       
-        
       </div>
     );
   

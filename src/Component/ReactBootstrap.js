@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import { createUserWithEmailAndPassword, getAuth, signInWithPopup, GoogleAuthProvider, signOut, GithubAuthProvider } from 'firebase/auth';
-
 import app from './../Firebase/Firebase.init';
 
 const auth = getAuth (app);
@@ -28,17 +27,9 @@ const ReactBootstrap = () => {
     }
 
 
-
-
-
-
-
-
-
     const [user, setUser] = useState ({})
     const GoogleProvider = new GoogleAuthProvider();
     const GithubProvider = new GithubAuthProvider();
-  
   
     const handleGoogleSignIn = () => {
     signInWithPopup (auth, GoogleProvider)
@@ -75,18 +66,6 @@ const ReactBootstrap = () => {
     })
    }
 
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <div>  
             <h1 className='text-primary'> Register Here!! </h1> 
@@ -109,16 +88,8 @@ const ReactBootstrap = () => {
     </Form>
 
 
-
-
-
-
-
-
-
     <div className="">
-    
-
+        
         { user.uid ?
         <button className='borderr' onClick={handleGoogleSignOut}> Google Sign Out </button>
           :
@@ -137,13 +108,6 @@ const ReactBootstrap = () => {
         }
         
       </div>
-
-
-
-
-
-
-
         </div>
     );
 };
