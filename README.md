@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://firebase-authentication.netlify.app" target="_blank"><img src="https://firebase-authentication.netlify.app/logo.png" alt="firebase-authentication" title="firebase-authentication" width="80"></a>
+    <a href="https://firebase-authentication.netlify.app" target="_blank"></a>
 </p>
 <h1 align="center">firebase-authentication</h1>
 
