@@ -13,7 +13,7 @@
 [https://.netlify.app](https://.netlify.app)
 
 
-## Installation
+# Installation
 
 ```bash
 # Clone this repository
